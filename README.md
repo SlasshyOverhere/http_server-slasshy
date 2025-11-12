@@ -1,108 +1,50 @@
+# 📁 Secure File Share
 
-
----
-
-
-
-\## 🤝 Contributing
-
-
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-
-
-\### Development Setup
-
-
-
-1\. Fork the repository
-
-2\. Create a feature branch: `git checkout -b feature-name`
-
-3\. Make your changes
-
-4\. Test thoroughly
-
-5\. Commit: `git commit -m 'Add feature-name'`
-
-6\. Push: `git push origin feature-name`
-
-7\. Open a Pull Request
-
-
+A simple yet powerful local and cloud-based file sharing application with real-time logging, password protection, and Cloudflare tunneling support — built using **Python**, **Flask**, and **Tkinter**.
 
 ---
 
+## 🚀 Features
 
-
-\## 📞 Support
-
-
-
-\- \*\*Issues:\*\* Report bugs on GitHub Issues
-
-\- \*\*Email:\*\* \[your-email@example.com]
-
-\- \*\*Documentation:\*\* See this README
-
-
+- 🌐 Local and remote file sharing
+- 🔒 Password-protected access
+- 📱 Mobile-responsive web interface
+- 🔗 Auto-generated QR codes for instant sharing
+- 🌍 Cloudflare tunnel support (no port forwarding)
+- 📝 Live activity logging
+- 👁️ IP address tracking
+- 🖥️ GUI control panel via Tkinter
 
 ---
 
+## 🧩 Tech Stack
 
-
-\## 🙏 Acknowledgments
-
-
-
-\- \*\*Flask\*\* - Web framework
-
-\- \*\*Cloudflare\*\* - Tunnel service
-
-\- \*\*Python\*\* - Programming language
-
-\- \*\*Tkinter\*\* - GUI framework
-
-
+- **Python** – Core programming language  
+- **Flask** – Lightweight backend framework  
+- **Tkinter** – Desktop GUI interface  
+- **Cloudflare Tunnel** – Secure remote access  
+- **QR Code (Pillow + qrcode)** – Easy device connections  
 
 ---
 
+## ⚙️ Installation
 
+### Prerequisites
+Make sure you have the following installed:
+- Python 3.8 or above  
+- pip (Python package manager)  
+- Cloudflare Tunnel (optional, for remote sharing)
 
-\## 📊 Version History
+### Steps
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/secure-file-share.git
 
+# Navigate into the project directory
+cd secure-file-share
 
+# Install dependencies
+pip install -r requirements.txt
 
-\### v1.0.0 (2025-11-12)
-
-\- ✨ Initial release
-
-\- 🌐 Local network file sharing
-
-\- 🔒 Password protection
-
-\- 📱 Mobile-responsive interface
-
-\- 🔗 QR code generation
-
-\- 🌍 Cloudflare tunnel support
-
-\- 📝 Live activity logging
-
-\- 👁️ IP address tracking
-
-
-
----
-
-
-
-\*\*Made with ❤️ by Suman Patgiri\*\*
-
-
-
-\*Share files effortlessly across your network!\*
-
-
-
+# Run the app
+python main.py
